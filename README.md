@@ -11,7 +11,11 @@
 - git push
 - git pull
 =======
-# Virtuelle Python Umgebung installerien
+
+# Erst die Dateien zum Comitten adden git add . [für alle Dateien, jenseits von .gitgnore]
+# Beim Comitten stets an die Message denken [git commit -m "Message"]
+# Beim push am besten nur git push, damit der neue Branch richtig im Hub erstellt wird.
+# Virtuelle Python Umgebung installieren - muss man machen, um Kompabilitätsprobleme zu umgehen.
 python3 -m venv .venv 
 # Ein Ordner mit . am Anfang wird in der Regel nicht erkannt
 # Die Virtual Python Umgebung aktivieren
@@ -29,5 +33,8 @@ deactivate
 # Man kann jetzt hier auch gepflegt eine neue Python Datei öffnen, nur mit dem Speichern haperts noch ein wenig...
 # hab ich jetzt aber nicht hingekriegt
 
+# Oliver macht es so, dass er einfach im Explorer eine Neue Datei macht und die per Abkürzung der Sprache zuordnet. Geht für .gitignore und auch für die .py
+
+# Strg S fürs Speichern, wird leider nicht so recht angezeigt
 
 
