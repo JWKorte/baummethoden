@@ -1,0 +1,10 @@
+# in der Ignore Datei wird festgehalten, was alles nicht von Git bewegt werden soll
+# Man kann Dateien anwählen oder Ordner
+__pycache__
+.ipynb_checkpoints
+.venv
+build
+dist
+*.ipynb
+Helloworld.py
+# Ausnahmen mit Ausrufezeichen (nur bei Ordnern)
