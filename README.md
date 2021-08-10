@@ -1,5 +1,16 @@
 # baummethoden
 
+# Headline
+## kleine Headline
+
+## These are the git commands I already learned
+- git commit
+- git branch
+- git checkout
+- git clone
+- git push
+- git pull
+=======
 # Virtuelle Python Umgebung installerien
 python3 -m venv .venv 
 # Ein Ordner mit . am Anfang wird in der Regel nicht erkannt
@@ -17,3 +28,6 @@ deactivate
 
 # Man kann jetzt hier auch gepflegt eine neue Python Datei öffnen, nur mit dem Speichern haperts noch ein wenig...
 # hab ich jetzt aber nicht hingekriegt
+
+
+
