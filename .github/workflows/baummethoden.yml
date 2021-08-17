@@ -31,5 +31,5 @@ jobs:
         run: echo hello > artifact/world.txt
         uses: actions/upload-artifact@v2
           with:
-          name: train.py
-          path: artifact/world.txt
+            name: train.py
+            path: artifact/world.txt
