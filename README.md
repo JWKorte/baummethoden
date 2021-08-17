@@ -37,4 +37,11 @@ deactivate
 
 # Strg S fürs Speichern, wird leider nicht so recht angezeigt
 
+# Die nächste Aufgabe besteht darin, das Versionsmanagement zu machen. Das geschieht in einer requirements.txt und über pypi.org. Der Befehl dazu lautet: pip freeze > requirements.txt 
+# Bekommt man so eine txt, macht man: pip install -r requirements.txt
 
+# um einen neuen branch zu machen kann man auch git checkout -b "neuerbranch"
+# pip freeze zeigt auch einfach die Versionen an 
+# pipe freeze > in eine Datei
+
+# Beim bauen von .py Dateien hat man in der Regel auch das Notebook offen, da man dort einfacher Dinge ausprobieren kann. Am Ende nimmt man den fertigen Code ins py.

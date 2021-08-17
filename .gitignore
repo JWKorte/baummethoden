@@ -7,4 +7,5 @@ build
 dist
 *.ipynb
 Helloworld.py
+Vorbereitung_Baummethoden
 # Ausnahmen mit Ausrufezeichen (nur bei Ordnern)
