@@ -8,4 +8,5 @@ dist
 *.ipynb
 Helloworld.py
 Vorbereitung_Baummethoden
+*.pickle
 # Ausnahmen mit Ausrufezeichen (nur bei Ordnern)
