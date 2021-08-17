@@ -23,3 +23,12 @@ jobs:
       - name: Model Training
         run: |
           python train.py
+          python predict.py
+      - name: Artefakt speichern
+        run: |
+          mkdir -p artifacts/artifact
+          echo hello > artifacts/world.txt
+      - uses: actions/upload-artifact@v2
+        with:
+          name: my-artifact
+          path: artifacts/world.txt
