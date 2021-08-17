@@ -26,10 +26,3 @@ jobs:
       - name: Model Training
         run: |
           python train.py
-      - name: Artifakt Speichern
-        run: mkdir -p artifact
-        run: echo hello > artifact/world.txt
-        uses: actions/upload-artifact@v2
-          with:
-          name: train.py
-          path: artifact/world.txt
