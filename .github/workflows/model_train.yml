@@ -1,0 +1,22 @@
+name: model-training
+on: [push]
+jobs:
+  train-model:
+    runs-on: windows-latest
+    steps:
+      - uses: action\checkout@v2
+      - name: Setup Python
+        uses: actions/Setup-Python@v2
+        with:
+          python-version: "3.8"
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+      - name: Train model
+        run: |
+        python train.py
+        python predict.py
+      - name: Upload traines model
+        uses: actions/upload-artifact@v2
+        with:
+          name: baummethoden.pickle
+          path: rfmodel.pickel
