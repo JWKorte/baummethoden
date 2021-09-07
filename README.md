@@ -54,3 +54,6 @@ deactivate
 # leider lerne ich so relativ wenig: der weg war, dass man in die url die werte eingibt, der flask-route erklärt, dass eingabe kommt und dann die verschiedenen eingaben in eine form bringt, die vom model geladen werden können. das ergibt soweit sinn. die form für mich nicht und ich bräuchte wieder 1000 jahre...
 
 # alles etwas nervig und überfordernd
+
+
+# Himmelherrgott weiß ich nicht was hier läuft
