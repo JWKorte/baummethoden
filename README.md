@@ -48,6 +48,9 @@ deactivate
 # man muss aufpassen, wenn man nach in die readme.md schreibt, kann man sich probleme einfangen, hier, ich denke, nach dem adden! Erst arbeiten, dann committen, das ist aber gar nicht so einfach.
 
 # weiter gehts, eher nervig. austausch.
+=======
 # einigermaßen hats geklappt. der weg über $env:FLASK_APP = api.py und flask run war äquivalent zu dem app.run() in der api.py
 # statt aber flask run zu machen, muss man im browser den route eingeben hinterm /
 # leider lerne ich so relativ wenig: der weg war, dass man in die url die werte eingibt, der flask-route erklärt, dass eingabe kommt und dann die verschiedenen eingaben in eine form bringt, die vom model geladen werden können. das ergibt soweit sinn. die form für mich nicht und ich bräuchte wieder 1000 jahre...
+
+# alles etwas nervig und überfordernd
