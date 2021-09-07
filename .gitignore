@@ -9,4 +9,5 @@ dist
 Helloworld.py
 Vorbereitung_Baummethoden
 *.pickle
+.pytest_cache
 # Ausnahmen mit Ausrufezeichen (nur bei Ordnern)
