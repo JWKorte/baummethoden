@@ -48,3 +48,4 @@ deactivate
 # man muss aufpassen, wenn man nach in die readme.md schreibt, kann man sich probleme einfangen, hier, ich denke, nach dem adden! Erst arbeiten, dann committen, das ist aber gar nicht so einfach.
 
 # weiter gehts, eher nervig. austausch.
+# alles etwas nervig und überfordernd
